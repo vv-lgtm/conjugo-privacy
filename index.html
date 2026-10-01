@@ -32,8 +32,8 @@
 
 <p>Conjugo is an app for practising Spanish verb conjugation. It has no accounts, no advertising and no tracking, and it
 contains no third-party SDKs. This policy explains what happens to the data the app works with: your progress, which stays
-with you, and the two things the app sends us — mistake reports, when you send one, and an anonymous usage summary during
-the beta.</p>
+with you, and the three things the app sends us — mistake reports, when you send one, and, during the beta, an anonymous
+usage summary and technical reports of crashes and failures.</p>
 
 <h2>Your progress stays on your devices</h2>
 <p>Your answers, review schedule, chosen tenses, starred verbs, saved quizzes and settings are stored on your device. The
@@ -81,6 +81,26 @@ few minutes to limit abuse and is not saved. They are kept while the beta lasts 
 improving the app. You can switch the summary off at any time in Settings → Beta statistics; nothing is sent after that.
 Deleting the app removes the code, and a reinstall makes a new one.</p>
 
+<h2>Crash and failure reports (beta)</h2>
+<p>To find and fix what goes wrong, the app tells our server when it has crashed, stopped responding, been closed by iOS
+while it was on the screen, or failed at something and carried on — saving your progress, opening its database, syncing
+with iCloud, restoring from a file. Such a report contains:</p>
+<ul>
+  <li>what happened and when: the kind of failure and its technical reason — the exception, the signal or the code of
+      the error, and iOS's own short description of why it closed the app — and how long the app did not respond; an
+      error is told by its code, without the values it was about;</li>
+  <li>where in the program it happened: the chain of function calls at that moment, as addresses inside the app and
+      inside iOS — the same information as in the crash reports iOS itself keeps;</li>
+  <li>the app and iOS versions, the device model, and the install code described above.</li>
+</ul>
+<p>It contains no name, e-mail, location or device identifier, nothing you typed, and nothing about what you were
+practising at the time. iOS gives an app this information only about the app itself. The reports go to the same server
+as the usage summaries and are kept and used in the same way; a crash or a failure is also forwarded to the developer
+through Telegram, so that it can be fixed quickly. The same switch turns them off: Settings → Beta statistics.</p>
+<p>Separately, while the app is distributed through Apple's TestFlight, Apple gives the developer the crash logs of beta
+builds and whatever you choose to send through TestFlight itself — a screenshot or a comment, together with the name and
+e-mail address of your Apple Account — under Apple's own TestFlight terms.</p>
+
 <h2>Reminders and files</h2>
 <p>Daily reminders are scheduled by the app on your device. Exporting progress creates a file only where you choose to
 save it; importing reads only the file you pick.</p>
@@ -107,8 +127,8 @@ published on this page with a new date.</p>
 
 <p>Conjugo — приложение для тренировки спряжения испанских глаголов. В нём нет аккаунтов, рекламы и отслеживания, нет
 сторонних SDK. Здесь описано, что происходит с данными, с которыми работает приложение: прогресс остаётся у вас, а нам
-приложение отправляет две вещи — сообщения об ошибках, когда вы их отправляете, и анонимную сводку использования на
-время бета-тестирования.</p>
+приложение отправляет три вещи — сообщения об ошибках, когда вы их отправляете, и, на время бета-тестирования,
+анонимную сводку использования и технические отчёты о падениях и отказах.</p>
 
 <h2>Прогресс остаётся на ваших устройствах</h2>
 <p>Ответы, расписание повторений, выбранные времена, отмеченные глаголы, сохранённые квизы и настройки хранятся на
@@ -156,6 +176,27 @@ published on this page with a new date.</p>
 несколько минут для защиты от злоупотреблений и не сохраняется. Сводки хранятся, пока идёт бета и пока они полезны для
 улучшения приложения. Отправку можно выключить в любой момент: Настройки → Статистика беты; после этого ничего не
 отправляется. Удаление приложения удаляет код, а новая установка создаёт новый.</p>
+
+<h2>Отчёты о падениях и отказах (бета)</h2>
+<p>Чтобы находить и исправлять то, что идёт не так, приложение сообщает на наш сервер, когда оно упало, перестало
+отвечать, было закрыто iOS, пока было на экране, или не смогло что-то сделать и продолжило работу — сохранить прогресс,
+открыть свою базу, синхронизироваться с iCloud, восстановиться из файла. В таком отчёте:</p>
+<ul>
+  <li>что и когда случилось: вид отказа и его техническая причина — номер исключения, сигнала или ошибки и краткое
+      описание от самой iOS, почему приложение закрыто, — и сколько приложение не отвечало; ошибка передаётся кодом,
+      без значений, которых она касалась;</li>
+  <li>в каком месте программы это случилось: цепочка вызовов функций в этот момент, в виде адресов внутри приложения и
+      внутри iOS — то же, что в отчётах о сбоях, которые хранит сама iOS;</li>
+  <li>версии приложения и iOS, модель устройства и код установки, описанный выше.</li>
+</ul>
+<p>В отчёте нет имени, e-mail, местоположения и идентификатора устройства, нет ничего из того, что вы печатали, и ничего
+о том, что вы в этот момент тренировали. iOS сообщает приложению такие сведения только о нём самом. Отчёты приходят на
+тот же сервер, что и сводки, хранятся и используются так же; о падении или отказе сервер ещё пересылает сообщение
+разработчику через Telegram, чтобы исправить его быстро. Выключаются они тем же переключателем: Настройки → Статистика
+беты.</p>
+<p>Отдельно: пока приложение распространяется через TestFlight, Apple передаёт разработчику журналы сбоев бета-сборок и
+то, что вы сами отправляете через TestFlight, — снимок экрана или комментарий, вместе с именем и e-mail вашего аккаунта
+Apple — на условиях самого TestFlight.</p>
 
 <h2>Напоминания и файлы</h2>
 <p>Ежедневные напоминания планирует само приложение на устройстве. Экспорт прогресса создаёт файл только там, куда вы его
