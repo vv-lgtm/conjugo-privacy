@@ -37,7 +37,9 @@ reports of crashes and failures.</p>
 
 <h2>Your progress stays on your devices</h2>
 <p>Your answers, review schedule, chosen tenses, starred verbs, saved quizzes and settings are stored on your device. The
-home-screen widget reads a short summary of them on the same device. We (the developer) do not receive any of this.</p>
+home-screen widget reads a short summary of them on the same device. The developer does not receive your full practice
+history. With your consent, the app sends the summary described below, including settings and chosen tenses; a separate
+mistake report contains what the screen shows you before you send it.</p>
 
 <h2>iCloud sync</h2>
 <p>If you are signed in to iCloud, your progress is synced between your devices through Apple's CloudKit, in the
@@ -64,17 +66,17 @@ tell us what you sent.</p>
 <p>The app asks once, on the Today screen, whether it may send the developer usage statistics. Until you answer, and
 after a “no”, nothing is sent — neither the summary below nor the technical reports in the next section. You can change
 your answer at any time in Settings → Statistics; nothing is sent after you switch it off.</p>
-<p>When it is on, the app sends our server a summary about once a day: when it returns to the screen on a new day, and
-when it goes to the background after something new was done. We use it to see where the app's learning model goes
+<p>When it is on, the app sends our server a summary when it returns to the screen on a new learning day and when it goes
+to the background after something new was done — so several summaries may go in one day. We use it to see where the app's learning model goes
 wrong and to improve it — the schedule of reviews, the plan of the day, the learning path, how answers are checked and
 the exercises. The summary contains:</p>
 <ul>
-  <li>counts by day for the last 30 days: answers given; right answers, at the first asking and after a hint to try
-      again; new forms; check questions and how many were passed; the grades the schedule gave; wrong answers by the kind
+  <li>counts by day for the last 30 days, including days before you agreed: answers given; right answers at the first
+      asking of a question; new forms; check questions and how many were passed; the grades the schedule gave; wrong answers by the kind
       of mistake (the accents, another person or another tense, the form a regular verb would have, and the like);
       quizzes finished or left; minutes spent; the typical time to answer; answers given with a hint; and which screens
       were opened how many times (a lesson, a verb's table, a search, the tabs);</li>
-  <li>for the days since this install was first opened: right and wrong answers by tense, by person and by kind of
+  <li>for the days of these 30 since this install was first opened: right and wrong answers by tense, by person and by kind of
       question; the app's practice cards (such as “the present of <em>tener</em>, yo”) by their kind and by how many days
       had passed since each was last practised; and up to ten cards missed most often;</li>
   <li>for the last seven days, what happened in quizzes that the answers do not show: a hint to try again and how the
@@ -84,6 +86,9 @@ the exercises. The summary contains:</p>
   <li>where you stand: the tenses being learned, marked as known or brought back by check questions, what the learning
       path is waiting for, how many reviews are due against the day's limit, your usual number of answers a day, how many
       lessons and milestones you have reached, and how the first launch went (from scratch or through the level check);</li>
+  <li>running totals since the first launch: answers and right answers, quizzes finished by kind and those left
+      unfinished, days with practice and screen openings; the date of the first answer; how many verbs are starred and
+      quizzes saved;</li>
   <li>the app's settings (session size, hint language, variety of Spanish, reminder on or off, theme and the like),
       whether iCloud sync is on, the interface language, the time zone, the app and iOS versions and the device model;</li>
   <li>a random install code the app made on your device the first time it ran.</li>
@@ -94,11 +99,12 @@ not your comments.</p>
 your Apple Account or anything else about you, and we do not combine the statistics with data from any other source. It
 is shown in the app's Settings so that you can tell us which install is yours, if you wish — for example, to have its
 data deleted. Deleting the app removes the code, and a reinstall makes a new one.</p>
-<p>The first summary after you agree covers up to the last 30 days, including days before you agreed: the app keeps these
-counts on your device in any case. The first summary of a new install is also announced to the developer through
+<p>The first summary after you agree covers up to the last 30 days, including days before you agreed, and the running
+totals since the first launch: the app keeps these counts on your device in any case. The first summary of a new install is also announced to the developer through
 Telegram, with its install code, the app and iOS versions, the device model and the language.</p>
 <p>The summaries go to the same server as the reports (European Union, Google Cloud, Frankfurt) and are stored there as a
-text file; the IP address is used for a few minutes to limit abuse and is not saved. They are kept for as long as they
+text file. The report service uses the IP address for a few minutes to limit abuse and does not save it with the
+summary. They are kept for as long as they
 are useful for improving the app, and you can ask us at any time to delete the data of your install code.</p>
 
 <h2>Crash and failure reports — with the same answer</h2>
@@ -155,8 +161,9 @@ policy changes, the new version will be published on this page with a new date.<
 
 <h2>Прогресс остаётся на ваших устройствах</h2>
 <p>Ответы, расписание повторений, выбранные времена, отмеченные глаголы, сохранённые квизы и настройки хранятся на
-устройстве. Виджет на экране «Домой» читает их краткую сводку на том же устройстве. Разработчик ничего из этого не
-получает.</p>
+устройстве. Виджет на экране «Домой» читает их краткую сводку на том же устройстве. Полный журнал занятий разработчику не
+передаётся. С вашего согласия приложение отправляет описанную ниже сводную статистику, включая настройки и выбранные
+времена; отдельное сообщение об ошибке содержит то, что вы видите перед отправкой.</p>
 
 <h2>Синхронизация через iCloud</h2>
 <p>Если вы вошли в iCloud, прогресс синхронизируется между вашими устройствами через CloudKit от Apple, в
@@ -183,16 +190,16 @@ policy changes, the new version will be published on this page with a new date.<
 <p>Приложение один раз спрашивает на экране «Сегодня», можно ли отправлять разработчику статистику использования. Пока вы
 не ответили и после «нет» ничего не отправляется — ни сводка, описанная ниже, ни технические отчёты из следующего раздела.
 Ответ можно изменить в любой момент: Настройки → Статистика; после выключения ничего не отправляется.</p>
-<p>Когда статистика включена, приложение примерно раз в день отправляет на наш сервер сводку: когда возвращается на экран
-в новый день и когда уходит в фон после чего-то нового. По ней мы видим, где учебная модель приложения ошибается, и
+<p>Когда статистика включена, приложение отправляет на наш сервер сводку, когда возвращается на экран в новый учебный день
+и когда уходит в фон после чего-то нового, — за день их может уйти несколько. По ней мы видим, где учебная модель приложения ошибается, и
 улучшаем её — расписание повторений, план дня, учебный путь, проверку ответов и упражнения. В сводке:</p>
 <ul>
-  <li>счётчики по дням за последние 30 дней: сколько ответов дано; сколько верных — с первого раза и после подсказки
-      попробовать ещё; новых форм; проверочных вопросов и сколько из них пройдено; какие оценки дало расписание; неверные
+  <li>счётчики по дням за последние 30 дней, в том числе дни до согласия: сколько ответов дано; сколько верных при первом
+      предъявлении вопроса; новых форм; проверочных вопросов и сколько из них пройдено; какие оценки дало расписание; неверные
       ответы по виду ошибки (тильды, другое лицо или другое время, форма, какой она была бы у правильного глагола, и тому
       подобное); квизов закончено или брошено; минут потрачено; обычное время на ответ; ответов с подсказкой; и какие
       экраны сколько раз открывались (урок, таблица глагола, поиск, вкладки);</li>
-  <li>за дни с первого открытия этой установки: верные и неверные ответы по временам, лицам и видам вопросов; учебные
+  <li>за дни из этих 30, начиная с первого открытия этой установки: верные и неверные ответы по временам, лицам и видам вопросов; учебные
       карточки приложения (например, «презенс <em>tener</em>, yo») по их виду и по тому, сколько дней прошло с прошлой
       тренировки каждой; и до десяти карточек, в которых ошибались чаще всего;</li>
   <li>за последние семь дней — то, что происходило в квизах и не видно по ответам: подсказка попробовать ещё и чем
@@ -202,6 +209,9 @@ policy changes, the new version will be published on this page with a new date.<
   <li>где вы сейчас: какие времена изучаются, отмечены как известные или возвращены проверочными вопросами, чего ждёт
       учебный путь, сколько повторений накопилось против дневной границы, сколько ответов вы обычно даёте в день, сколько
       уроков и вех пройдено и как прошёл первый запуск (с нуля или через проверку уровня);</li>
+  <li>накопительные итоги с первого запуска: сколько ответов и верных, сколько квизов закончено по видам и сколько
+      брошено, сколько дней с занятиями и открытий экранов; дата первого ответа; сколько глаголов отмечено и квизов
+      сохранено;</li>
   <li>настройки приложения (размер тренировки, язык подсказок, вариант испанского, включено ли напоминание, тема и тому
       подобное), включена ли синхронизация iCloud, язык интерфейса, часовой пояс, версии приложения и iOS и модель
       устройства;</li>
@@ -213,11 +223,12 @@ policy changes, the new version will be published on this page with a new date.<
 что-либо другое о вас, и статистику мы не объединяем с данными из других источников. Код показан в настройках приложения,
 чтобы вы при желании могли сказать нам, какая установка ваша, — например, чтобы мы удалили её данные. Удаление приложения
 удаляет код, а новая установка создаёт новый.</p>
-<p>Первая сводка после вашего согласия охватывает до 30 последних дней, в том числе дни до согласия: эти счётчики
-приложение и так хранит на устройстве. О первой сводке новой установки сервер сообщает разработчику через Telegram — с её
+<p>Первая сводка после вашего согласия охватывает до 30 последних дней, в том числе дни до согласия, и накопительные итоги
+с первого запуска: эти счётчики приложение и так хранит на устройстве. О первой сводке новой установки сервер сообщает разработчику через Telegram — с её
 кодом, версиями приложения и iOS, моделью устройства и языком.</p>
 <p>Сводки приходят на тот же сервер, что и сообщения (Евросоюз, Google Cloud, Франкфурт), и хранятся там в текстовом
-файле; IP-адрес используется несколько минут для защиты от злоупотреблений и не сохраняется. Сводки хранятся, пока
+файле. Служба сообщений использует IP-адрес несколько минут для защиты от злоупотреблений и не сохраняет его вместе со
+сводкой. Сводки хранятся, пока
 полезны для улучшения приложения, и вы в любой момент можете попросить нас удалить данные вашего кода установки.</p>
 
 <h2>Отчёты о падениях и отказах — по тому же ответу</h2>
