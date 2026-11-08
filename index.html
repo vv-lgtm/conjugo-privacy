@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Conjugo — Privacy Policy</title>
+<title>Verbario — Privacy Policy</title>
 <style>
   :root { --bg: #fff; --fg: #1d1d1f; --muted: #6e6e73; --rule: #d2d2d7; --link: #0066cc; }
   @media (prefers-color-scheme: dark) {
@@ -26,14 +26,14 @@
 <main>
 
 <section id="en" lang="en">
-<h1>Conjugo — Privacy Policy</h1>
-<p class="muted">Effective 1 October 2026</p>
+<h1>Verbario — Privacy Policy</h1>
+<p class="muted">Effective 8 November 2026</p>
 <nav class="muted">English · <a href="#ru">Русский</a></nav>
 
-<p>Conjugo is an app for practising Spanish verb conjugation. It has no accounts, no advertising and no tracking, and it
+<p>Verbario is an app for practising Spanish verb conjugation. It has no accounts, no advertising and no tracking, and it
 contains no third-party SDKs. This policy explains what happens to the data the app works with: your progress, which stays
-with you, and the three things the app sends us — mistake reports, when you send one, and, during the beta, an anonymous
-usage summary and technical reports of crashes and failures.</p>
+with you, and what the app sends us — a report, when you send one, and, only if you agree, usage statistics and technical
+reports of crashes and failures.</p>
 
 <h2>Your progress stays on your devices</h2>
 <p>Your answers, review schedule, chosen tenses, starred verbs, saved quizzes and settings are stored on your device. The
@@ -43,7 +43,7 @@ home-screen widget reads a short summary of them on the same device. We (the dev
 <p>If you are signed in to iCloud, your progress is synced between your devices through Apple's CloudKit, in the
 <em>private</em> database of your own iCloud account. Only you can read it; the developer has no access to it. This
 storage is provided by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. You can
-delete the copy in iCloud at any time: iOS Settings → your name → iCloud → Storage → Conjugo.</p>
+delete the copy in iCloud at any time: iOS Settings → your name → iCloud → Storage → Verbario.</p>
 
 <h2>Reporting a mistake or asking for a verb</h2>
 <p>Only when you tap “Report a mistake” or “Ask for a verb” and then “Send”, the app sends a report to our server. The
@@ -53,35 +53,55 @@ report contains only what the screen shows you before you send it:</p>
   <li>the reason you picked and the comment you typed;</li>
   <li>the app and iOS versions, the interface language, the Spanish variety setting and the time of the report.</li>
 </ul>
-<p>It contains no name, e-mail, device identifier or location. Please do not type personal information into the comment.
-Reports are received by a server in the European Union (Google Cloud, Frankfurt), stored there as a text file and
-forwarded to the developer through Telegram, only to fix the app's content. The server uses your IP address only for a few
-minutes, to limit abuse, and does not save it with the report. Reports are kept for as long as they are useful for improving the app.
-Because a report is not linked to you, we cannot find “your” reports unless you tell us what you sent.</p>
+<p>It contains no name, e-mail, device identifier, location or install code. Please do not type personal information
+into the comment. Reports are received by a server in the European Union (Google Cloud, Frankfurt), stored there as a
+text file and forwarded to the developer through Telegram, only to fix the app's content. The report service uses your IP
+address only for a few minutes, to limit abuse, and does not save it with the report. Reports are kept for as long as
+they are useful for improving the app. Because a report is not linked to you, we cannot find “your” reports unless you
+tell us what you sent.</p>
 
-<h2>Usage summary (beta)</h2>
-<p>To see how the app is used during testing, it sends our server a short summary about once a day: when it returns to
-the screen on a new day, and when it goes to the background after something new was done. The summary contains:</p>
+<h2>Usage statistics — only if you agree</h2>
+<p>The app asks once, on the Today screen, whether it may send the developer usage statistics. Until you answer, and
+after a “no”, nothing is sent — neither the summary below nor the technical reports in the next section. You can change
+your answer at any time in Settings → Statistics; nothing is sent after you switch it off.</p>
+<p>When it is on, the app sends our server a summary about once a day: when it returns to the screen on a new day, and
+when it goes to the background after something new was done. We use it to see where the app's learning model goes
+wrong and to improve it — the schedule of reviews, the plan of the day, the learning path, how answers are checked and
+the exercises. The summary contains:</p>
 <ul>
-  <li>counts by day for the last 30 days: answers given, right answers, new forms, check questions, quizzes finished
-      or left, minutes spent, the typical time to answer, answers given with a hint, misses in accents alone, and which
-      screens were opened how many times (a lesson, a verb's table, a search, the tabs);</li>
-  <li>the state of your learning path: the tenses being learned or marked as known, whether the path is paused, how many
+  <li>counts by day for the last 30 days: answers given; right answers, at the first asking and after a hint to try
+      again; new forms; check questions and how many were passed; the grades the schedule gave; wrong answers by the kind
+      of mistake (the accents, another person or another tense, the form a regular verb would have, and the like);
+      quizzes finished or left; minutes spent; the typical time to answer; answers given with a hint; and which screens
+      were opened how many times (a lesson, a verb's table, a search, the tabs);</li>
+  <li>for the days since this install was first opened: right and wrong answers by tense, by person and by kind of
+      question; the app's practice cards (such as “the present of <em>tener</em>, yo”) by their kind and by how many days
+      had passed since each was last practised; and up to ten cards missed most often;</li>
+  <li>for the last seven days, what happened in quizzes that the answers do not show: a hint to try again and how the
+      answer after it ended, a quiz left before its end and how far into it, what the training of the day was made of
+      when it began, and how the level check went — its answers, whether it was stopped, whether its result was taken;
+      the same events summed for the last 30 days;</li>
+  <li>where you stand: the tenses being learned, marked as known or brought back by check questions, what the learning
+      path is waiting for, how many reviews are due against the day's limit, your usual number of answers a day, how many
       lessons and milestones you have reached, and how the first launch went (from scratch or through the level check);</li>
   <li>the app's settings (session size, hint language, variety of Spanish, reminder on or off, theme and the like),
-      whether iCloud sync is on, the interface language, the app and iOS versions and the device model;</li>
+      whether iCloud sync is on, the interface language, the time zone, the app and iOS versions and the device model;</li>
   <li>a random install code the app made on your device the first time it ran.</li>
 </ul>
-<p>It contains no name, e-mail, phone number, location, device identifier, and nothing you typed — not your answers, not
-your comments. The install code only tells one install's summaries from another's; it is not linked to your Apple
-Account or to anything else about you, and it is shown in the app's Settings so that you can tell us which one is yours
-if you wish. The summaries go to the same server as the reports (European Union, Google Cloud, Frankfurt), are stored
-there as a text file, and are used only to see how the beta goes and to improve the app; the IP address is used for a
-few minutes to limit abuse and is not saved. They are kept while the beta lasts and for as long as they are useful for
-improving the app. You can switch the summary off at any time in Settings → Beta statistics; nothing is sent after that.
-Deleting the app removes the code, and a reinstall makes a new one.</p>
+<p>It contains no name, e-mail, phone number, location or device identifier, and nothing you typed — not your answers,
+not your comments.</p>
+<p>The summaries of one install are joined by its install code. The code is made at random on your device; it is not
+your Apple Account or anything else about you, and we do not combine the statistics with data from any other source. It
+is shown in the app's Settings so that you can tell us which install is yours, if you wish — for example, to have its
+data deleted. Deleting the app removes the code, and a reinstall makes a new one.</p>
+<p>The first summary after you agree covers up to the last 30 days, including days before you agreed: the app keeps these
+counts on your device in any case. The first summary of a new install is also announced to the developer through
+Telegram, with its install code, the app and iOS versions, the device model and the language.</p>
+<p>The summaries go to the same server as the reports (European Union, Google Cloud, Frankfurt) and are stored there as a
+text file; the IP address is used for a few minutes to limit abuse and is not saved. They are kept for as long as they
+are useful for improving the app, and you can ask us at any time to delete the data of your install code.</p>
 
-<h2>Crash and failure reports (beta)</h2>
+<h2>Crash and failure reports — with the same answer</h2>
 <p>To find and fix what goes wrong, the app tells our server when it has crashed, stopped responding, been closed by iOS
 while it was on the screen, or failed at something and carried on — saving your progress, opening its database, syncing
 with iCloud, restoring from a file. Such a report contains:</p>
@@ -94,12 +114,13 @@ with iCloud, restoring from a file. Such a report contains:</p>
   <li>the app and iOS versions, the device model, and the install code described above.</li>
 </ul>
 <p>It contains no name, e-mail, location or device identifier, nothing you typed, and nothing about what you were
-practising at the time. iOS gives an app this information only about the app itself. The reports go to the same server
-as the usage summaries and are kept and used in the same way; a crash or a failure is also forwarded to the developer
-through Telegram, so that it can be fixed quickly. The same switch turns them off: Settings → Beta statistics.</p>
-<p>Separately, while the app is distributed through Apple's TestFlight, Apple gives the developer the crash logs of beta
-builds and whatever you choose to send through TestFlight itself — a screenshot or a comment, together with the name and
-e-mail address of your Apple Account — under Apple's own TestFlight terms.</p>
+practising at the time. iOS gives an app this information only about the app itself. These reports are sent only if you
+agreed to the statistics, and stop with the same switch: Settings → Statistics. They go to the same server as the
+summaries and are kept and used in the same way; a crash or a failure is also forwarded to the developer through
+Telegram, so that it can be fixed quickly.</p>
+<p>If you install a beta version through Apple's TestFlight, Apple gives the developer the crash logs of beta builds and
+whatever you choose to send through TestFlight itself — a screenshot or a comment, together with the name and e-mail
+address of your Apple Account — under Apple's own TestFlight terms.</p>
 
 <h2>Reminders and files</h2>
 <p>Daily reminders are scheduled by the app on your device. Exporting progress creates a file only where you choose to
@@ -107,28 +128,30 @@ save it; importing reads only the file you pick.</p>
 
 <h2>Deleting your data</h2>
 <p>“Erase all progress” in the app's Settings resets your progress on all your devices. Deleting the app removes its data
-from the device; the iCloud copy is removed as described above.</p>
+from the device; the iCloud copy is removed as described above. To have the statistics of your install deleted from our
+server, write to us with its install code from Settings → Statistics.</p>
 
 <h2>Children</h2>
-<p>The app collects no personal data from anyone, including children.</p>
+<p>The app asks no one, children included, for a name, an e-mail address or any other contact details; its statistics
+are sent only with consent and carry none.</p>
 
 <h2>Your rights and contact</h2>
-<p>Under the GDPR and similar laws you may ask about, correct or delete any data we hold about you. Write to
-<a href="mailto:bcnwalkapp@gmail.com">bcnwalkapp@gmail.com</a>. If this policy changes, the new version will be
-published on this page with a new date.</p>
+<p>Under the GDPR and similar laws you may ask about, correct or delete the data we hold about your install, or withdraw
+your consent at any time in Settings. Write to <a href="mailto:bcnwalkapp@gmail.com">bcnwalkapp@gmail.com</a>. If this
+policy changes, the new version will be published on this page with a new date.</p>
 </section>
 
 <hr>
 
 <section id="ru" lang="ru">
-<h1>Conjugo — политика конфиденциальности</h1>
-<p class="muted">Действует с 1 октября 2026 года</p>
+<h1>Verbario — политика конфиденциальности</h1>
+<p class="muted">Действует с 8 ноября 2026 года</p>
 <nav class="muted"><a href="#en">English</a> · Русский</nav>
 
-<p>Conjugo — приложение для тренировки спряжения испанских глаголов. В нём нет аккаунтов, рекламы и отслеживания, нет
+<p>Verbario — приложение для тренировки спряжения испанских глаголов. В нём нет аккаунтов, рекламы и отслеживания, нет
 сторонних SDK. Здесь описано, что происходит с данными, с которыми работает приложение: прогресс остаётся у вас, а нам
-приложение отправляет три вещи — сообщения об ошибках, когда вы их отправляете, и, на время бета-тестирования,
-анонимную сводку использования и технические отчёты о падениях и отказах.</p>
+приложение отправляет сообщение об ошибке, когда вы его отправляете, и — только если вы согласны — статистику
+использования и технические отчёты о падениях и отказах.</p>
 
 <h2>Прогресс остаётся на ваших устройствах</h2>
 <p>Ответы, расписание повторений, выбранные времена, отмеченные глаголы, сохранённые квизы и настройки хранятся на
@@ -139,7 +162,7 @@ published on this page with a new date.</p>
 <p>Если вы вошли в iCloud, прогресс синхронизируется между вашими устройствами через CloudKit от Apple, в
 <em>частной</em> базе вашего аккаунта iCloud. Читать её можете только вы, у разработчика доступа нет. Хранилище
 предоставляет Apple на условиях <a href="https://www.apple.com/legal/privacy/">политики конфиденциальности Apple</a>.
-Удалить копию в iCloud можно в любой момент: Настройки iOS → ваше имя → iCloud → Хранилище → Conjugo.</p>
+Удалить копию в iCloud можно в любой момент: Настройки iOS → ваше имя → iCloud → Хранилище → Verbario.</p>
 
 <h2>«Сообщить об ошибке» и «Попросить глагол»</h2>
 <p>Только когда вы нажимаете «Сообщить об ошибке» или «Попросить глагол», а затем «Отправить», приложение отправляет
@@ -149,35 +172,55 @@ published on this page with a new date.</p>
   <li>выбранная причина и ваш комментарий;</li>
   <li>версии приложения и iOS, язык интерфейса, настройка варианта испанского и время сообщения.</li>
 </ul>
-<p>В сообщении нет имени, e-mail, идентификатора устройства и местоположения. Пожалуйста, не пишите в комментарии личных
-данных. Сообщения принимает сервер в Евросоюзе (Google Cloud, Франкфурт), хранит их в текстовом файле и пересылает
-разработчику через Telegram — только чтобы исправлять содержимое приложения. IP-адрес сервер использует лишь несколько
-минут для защиты от злоупотреблений и вместе с сообщением не сохраняет. Сообщения хранятся, пока полезны для улучшения приложения. Поскольку
-сообщение не связано с вами, найти «ваши» сообщения мы можем, только если вы напишете, что отправляли.</p>
+<p>В сообщении нет имени, e-mail, идентификатора устройства, местоположения и кода установки. Пожалуйста, не пишите в
+комментарии личных данных. Сообщения принимает сервер в Евросоюзе (Google Cloud, Франкфурт), хранит их в текстовом файле
+и пересылает разработчику через Telegram — только чтобы исправлять содержимое приложения. IP-адрес служба сообщений
+использует лишь несколько минут для защиты от злоупотреблений и вместе с сообщением не сохраняет. Сообщения хранятся,
+пока полезны для улучшения приложения. Поскольку сообщение не связано с вами, найти «ваши» сообщения мы можем, только если
+вы напишете, что отправляли.</p>
 
-<h2>Сводка использования (бета)</h2>
-<p>Чтобы видеть, как приложением пользуются во время тестирования, оно примерно раз в день отправляет на наш сервер
-короткую сводку: когда возвращается на экран в новый день и когда уходит в фон после чего-то нового. В сводке:</p>
+<h2>Статистика использования — только с вашего согласия</h2>
+<p>Приложение один раз спрашивает на экране «Сегодня», можно ли отправлять разработчику статистику использования. Пока вы
+не ответили и после «нет» ничего не отправляется — ни сводка, описанная ниже, ни технические отчёты из следующего раздела.
+Ответ можно изменить в любой момент: Настройки → Статистика; после выключения ничего не отправляется.</p>
+<p>Когда статистика включена, приложение примерно раз в день отправляет на наш сервер сводку: когда возвращается на экран
+в новый день и когда уходит в фон после чего-то нового. По ней мы видим, где учебная модель приложения ошибается, и
+улучшаем её — расписание повторений, план дня, учебный путь, проверку ответов и упражнения. В сводке:</p>
 <ul>
-  <li>счётчики по дням за последние 30 дней: сколько ответов дано, сколько верных, новых форм, проверочных вопросов,
-      квизов закончено или брошено, минут потрачено, обычное время на ответ, ответов с подсказкой, промахов только в
-      тильдах, и какие экраны сколько раз открывались (урок, таблица глагола, поиск, вкладки);</li>
-  <li>состояние учебного пути: какие времена изучаются или отмечены как известные, стоит ли путь на паузе, сколько уроков
-      и вех пройдено, и как прошёл первый запуск (с нуля или через проверку уровня);</li>
+  <li>счётчики по дням за последние 30 дней: сколько ответов дано; сколько верных — с первого раза и после подсказки
+      попробовать ещё; новых форм; проверочных вопросов и сколько из них пройдено; какие оценки дало расписание; неверные
+      ответы по виду ошибки (тильды, другое лицо или другое время, форма, какой она была бы у правильного глагола, и тому
+      подобное); квизов закончено или брошено; минут потрачено; обычное время на ответ; ответов с подсказкой; и какие
+      экраны сколько раз открывались (урок, таблица глагола, поиск, вкладки);</li>
+  <li>за дни с первого открытия этой установки: верные и неверные ответы по временам, лицам и видам вопросов; учебные
+      карточки приложения (например, «презенс <em>tener</em>, yo») по их виду и по тому, сколько дней прошло с прошлой
+      тренировки каждой; и до десяти карточек, в которых ошибались чаще всего;</li>
+  <li>за последние семь дней — то, что происходило в квизах и не видно по ответам: подсказка попробовать ещё и чем
+      закончился ответ после неё, квиз, брошенный до конца, и как далеко в нём дошли, из чего состояла тренировка дня,
+      когда началась, и как прошла проверка уровня — её ответы, остановлена ли она, принят ли её результат; те же события
+      суммой за последние 30 дней;</li>
+  <li>где вы сейчас: какие времена изучаются, отмечены как известные или возвращены проверочными вопросами, чего ждёт
+      учебный путь, сколько повторений накопилось против дневной границы, сколько ответов вы обычно даёте в день, сколько
+      уроков и вех пройдено и как прошёл первый запуск (с нуля или через проверку уровня);</li>
   <li>настройки приложения (размер тренировки, язык подсказок, вариант испанского, включено ли напоминание, тема и тому
-      подобное), включена ли синхронизация iCloud, язык интерфейса, версии приложения и iOS и модель устройства;</li>
+      подобное), включена ли синхронизация iCloud, язык интерфейса, часовой пояс, версии приложения и iOS и модель
+      устройства;</li>
   <li>случайный код установки, который приложение создало на вашем устройстве при первом запуске.</li>
 </ul>
 <p>В сводке нет имени, e-mail, телефона, местоположения, идентификатора устройства и ничего из того, что вы печатали, —
-ни ответов, ни комментариев. Код установки только отличает сводки одной установки от другой; он не связан с вашим
-аккаунтом Apple и ни с чем другим о вас, и показан в настройках приложения, чтобы вы при желании могли сказать нам,
-какая установка ваша. Сводки приходят на тот же сервер, что и сообщения (Евросоюз, Google Cloud, Франкфурт), хранятся
-там в текстовом файле и используются только чтобы видеть, как идёт бета, и улучшать приложение; IP-адрес используется
-несколько минут для защиты от злоупотреблений и не сохраняется. Сводки хранятся, пока идёт бета и пока они полезны для
-улучшения приложения. Отправку можно выключить в любой момент: Настройки → Статистика беты; после этого ничего не
-отправляется. Удаление приложения удаляет код, а новая установка создаёт новый.</p>
+ни ответов, ни комментариев.</p>
+<p>Сводки одной установки связаны её кодом. Код создаётся на вашем устройстве случайно; это не ваш аккаунт Apple и не
+что-либо другое о вас, и статистику мы не объединяем с данными из других источников. Код показан в настройках приложения,
+чтобы вы при желании могли сказать нам, какая установка ваша, — например, чтобы мы удалили её данные. Удаление приложения
+удаляет код, а новая установка создаёт новый.</p>
+<p>Первая сводка после вашего согласия охватывает до 30 последних дней, в том числе дни до согласия: эти счётчики
+приложение и так хранит на устройстве. О первой сводке новой установки сервер сообщает разработчику через Telegram — с её
+кодом, версиями приложения и iOS, моделью устройства и языком.</p>
+<p>Сводки приходят на тот же сервер, что и сообщения (Евросоюз, Google Cloud, Франкфурт), и хранятся там в текстовом
+файле; IP-адрес используется несколько минут для защиты от злоупотреблений и не сохраняется. Сводки хранятся, пока
+полезны для улучшения приложения, и вы в любой момент можете попросить нас удалить данные вашего кода установки.</p>
 
-<h2>Отчёты о падениях и отказах (бета)</h2>
+<h2>Отчёты о падениях и отказах — по тому же ответу</h2>
 <p>Чтобы находить и исправлять то, что идёт не так, приложение сообщает на наш сервер, когда оно упало, перестало
 отвечать, было закрыто iOS, пока было на экране, или не смогло что-то сделать и продолжило работу — сохранить прогресс,
 открыть свою базу, синхронизироваться с iCloud, восстановиться из файла. В таком отчёте:</p>
@@ -190,13 +233,13 @@ published on this page with a new date.</p>
   <li>версии приложения и iOS, модель устройства и код установки, описанный выше.</li>
 </ul>
 <p>В отчёте нет имени, e-mail, местоположения и идентификатора устройства, нет ничего из того, что вы печатали, и ничего
-о том, что вы в этот момент тренировали. iOS сообщает приложению такие сведения только о нём самом. Отчёты приходят на
-тот же сервер, что и сводки, хранятся и используются так же; о падении или отказе сервер ещё пересылает сообщение
-разработчику через Telegram, чтобы исправить его быстро. Выключаются они тем же переключателем: Настройки → Статистика
-беты.</p>
-<p>Отдельно: пока приложение распространяется через TestFlight, Apple передаёт разработчику журналы сбоев бета-сборок и
-то, что вы сами отправляете через TestFlight, — снимок экрана или комментарий, вместе с именем и e-mail вашего аккаунта
-Apple — на условиях самого TestFlight.</p>
+о том, что вы в этот момент тренировали. iOS сообщает приложению такие сведения только о нём самом. Такие отчёты
+отправляются, только если вы согласились на статистику, и выключаются тем же переключателем: Настройки → Статистика.
+Отчёты приходят на тот же сервер, что и сводки, хранятся и используются так же; о падении или отказе сервер ещё
+пересылает сообщение разработчику через Telegram, чтобы исправить его быстро.</p>
+<p>Если вы ставите бета-версию через TestFlight, Apple передаёт разработчику журналы сбоев бета-сборок и то, что вы сами
+отправляете через TestFlight, — снимок экрана или комментарий, вместе с именем и e-mail вашего аккаунта Apple — на
+условиях самого TestFlight.</p>
 
 <h2>Напоминания и файлы</h2>
 <p>Ежедневные напоминания планирует само приложение на устройстве. Экспорт прогресса создаёт файл только там, куда вы его
@@ -204,13 +247,16 @@ Apple — на условиях самого TestFlight.</p>
 
 <h2>Удаление данных</h2>
 <p>«Стереть весь прогресс» в настройках приложения сбрасывает прогресс на всех ваших устройствах. Удаление приложения
-удаляет его данные с устройства; копия в iCloud удаляется, как описано выше.</p>
+удаляет его данные с устройства; копия в iCloud удаляется, как описано выше. Чтобы мы удалили статистику вашей установки
+со своего сервера, напишите нам её код из раздела Настройки → Статистика.</p>
 
 <h2>Дети</h2>
-<p>Приложение не собирает персональных данных ни у кого, в том числе у детей.</p>
+<p>Приложение ни у кого, в том числе у детей, не спрашивает имени, e-mail или других контактных данных; статистика
+отправляется только с согласия и таких данных не содержит.</p>
 
 <h2>Ваши права и связь</h2>
-<p>По GDPR и схожим законам вы можете узнать, исправить или удалить данные о вас, если они у нас есть. Пишите на
+<p>По GDPR и схожим законам вы можете узнать, исправить или удалить данные о вашей установке, если они у нас есть, а
+согласие на статистику — отозвать в любой момент в настройках. Пишите на
 <a href="mailto:bcnwalkapp@gmail.com">bcnwalkapp@gmail.com</a>. Если политика изменится, новая версия появится на этой
 странице с новой датой.</p>
 </section>
